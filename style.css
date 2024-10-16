@@ -130,5 +130,15 @@ a,
     color: #F9FAF8;
     font-style: bolder;
     border-radius: 4px;
+    padding: 4px 18px;
+   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+    color: #E5E7EB;
 }
 
