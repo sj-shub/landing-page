@@ -87,13 +87,38 @@ a,
     color: #f9faf8;
 }
 
+.info {
+    padding: 22px 200px 100px 200px;
+}
 .info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
     text-align: center;
+    margin-bottom: 32px;
 
 }
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.card-image {
+    border: 4px solid #3882f6;
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+
+}
+
+.card {
+    height: 200px;
+    width: 150px;
+    text-align: center;
+}
+
 
 .quote {
     background: #E5E7EB;
