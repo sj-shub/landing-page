@@ -43,27 +43,32 @@ body {
 .placeholder-image {
     flex: 1;
     background: lightslategray;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-button {
     margin-top: 8px;
-    color: #f9faf8;
     font-weight: bold;
     padding: 4px 18px;
-    border: none;
-    border-radius: 4px;
+    
 }
 a {
     text-decoration: none;   
 }
 
-.header-logo {
+.header-logo,
+.sub-footer-heading {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 a,
-.content-text {
+.content-text,
+.sub-footer-text {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -74,9 +79,12 @@ a,
     font-weight: 900;
 }
 
-button,
+.header-button,
 .sub-footer {
     background: #3882f6;
+    border: none;
+    border-radius: 4px;
+    color: #f9faf8;
 }
 
 .info-header {
@@ -85,5 +93,42 @@ button,
     font-weight: 900;
     text-align: center;
 
+}
+
+.quote {
+    background: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-subtext {
+    text-align: end;
+    font-weight: bold;
+}
+
+.sf-container {
+    padding: 80px 150px;
+}
+
+.sub-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.sub-footer-button {
+    background: #3882f6;
+    border: 1px solid #E5E7EB ;
+    color: #F9FAF8;
+    font-style: bolder;
+    border-radius: 4px;
 }
 
